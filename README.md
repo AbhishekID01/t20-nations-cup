@@ -1,12 +1,72 @@
-# React + Vite
+# 🏏 T20 Nations Cup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern esports-style T20 Cricket Tournament UI built with React and Vite.
 
-Currently, two official plugins are available:
+This project demonstrates scalable component architecture, structured state management, and a production-ready frontend deployment workflow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌍 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 https://your-vercel-link.vercel.app  
+(Add this after deployment)
+
+---
+
+## 🚀 Features
+
+- 🏆 T20 Tournament Dashboard
+- 👥 Squad Management Interface
+- 📊 Player Detail View with Radar Stats Visualization
+- 📈 Dynamic Points Table with NRR Logic
+- 🌐 Online Mode UI
+- 🎯 Objectives & Season Tracking
+- 🔊 Sound Effects & Background Music Integration
+- 📱 Responsive Layout Design
+
+---
+
+## 🛠 Tech Stack
+
+- React (Functional Components + Hooks)
+- Vite
+- TailwindCSS
+- Recharts (Radar Chart Visualization)
+- Lucide Icons
+- Context API (Global State Management)
+
+---
+
+## 📂 Project Structure
+src/
+├── components/
+├── pages/
+├── context/
+├── hooks/
+├── assets/
+└── App.jsx
+
+
+The architecture is modular and scalable, designed to simulate a real-world frontend codebase.
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/t20-nations-cup.git
+cd t20-nations-cup
+
+Install dependencies:
+
+npm install
+
+Run development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
